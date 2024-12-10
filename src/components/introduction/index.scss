@@ -1,0 +1,33 @@
+.intro {
+    background-image: url(../../container/images/intro-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    h1 {
+       margin: 0;
+       padding: 0; 
+       color: #FFCC00;
+    }
+    p {
+        color: #ffffff;
+        max-width: 55%;
+        padding: 0;
+        margin: 15px;
+    }
+    button {
+        color: #ffffff;
+        border: 0;
+        border-radius: 5px;
+        padding: 8px 20px;
+        background-color: red;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,26 @@
+.pokemon-game {
+    background-image: url(../../container/images/game-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    .play-area {
+        height: calc(100vh - 114px);
+        width: 100%;
+        position: relative;
+        img {
+            max-height: 75px;
+            position: absolute;
+            cursor: pointer;
+        }
+    }
+}
+.game-header {
+    padding: 15px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 84px;
+}

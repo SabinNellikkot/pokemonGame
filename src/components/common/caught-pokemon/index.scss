@@ -1,0 +1,26 @@
+.caught-wrapper {
+    width: 60%;
+    .caught-pokemon {
+        max-width: 18%;
+        float: left;
+        padding: 5px;
+        border: 1px solid #cacaca;
+        border-radius: 8px;
+        margin-left: 2%;
+        text-align: center;
+        min-width: 16%;
+        img {
+            max-height: 50px;
+        }
+        p {
+            font-size: 16px;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    h2 {
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+    }
+}
